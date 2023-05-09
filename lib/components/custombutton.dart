@@ -28,7 +28,7 @@ class CustomButton extends StatelessWidget {
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
           shape: const StadiumBorder(),
-          backgroundColor: Colors.blue.shade700,
+          backgroundColor: const Color(0xff0E3146),
         ),
         onPressed: onpressed,
         child: Text(
@@ -56,7 +56,6 @@ class CustomCircleAvatar extends StatelessWidget {
   Widget build(BuildContext context) {
     return CircleAvatar(
       radius: radius,
-    
       backgroundImage: const AssetImage("assets/icons/profile.png"),
     );
   }
@@ -113,7 +112,7 @@ class CustomTextField extends StatelessWidget {
       decoration: InputDecoration(
         hintText: hinttext,
         suffixIcon: suffixicon,
-        border:  OutlineInputBorder(
+        border: OutlineInputBorder(
           borderSide: BorderSide.none,
           borderRadius: BorderRadius.circular(10),
         ),

@@ -14,11 +14,14 @@ class LastScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
-              padding: const EdgeInsets.symmetric(vertical:30.0),
+              padding: const EdgeInsets.symmetric(vertical: 30.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  const Text("Detail", style: TextStyle(fontSize: 25),),
+                  const Text(
+                    "Detail",
+                    style: TextStyle(fontSize: 25),
+                  ),
                   Container(
                     decoration: BoxDecoration(
                       color: const Color(0xffEAF1FF),
@@ -119,7 +122,7 @@ class LastScreen extends StatelessWidget {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                      color: const Color(0xff246BFD),
+                      color: const Color(0xff0E3146),
                       borderRadius: BorderRadius.circular(10),
                     ),
                     height: 35,
@@ -169,7 +172,7 @@ class LastScreen extends StatelessWidget {
               ],
             ),
             const Padding(
-              padding: EdgeInsets.only(top:8.0),
+              padding: EdgeInsets.only(top: 8.0),
               child: Text("Price"),
             ),
             Row(
@@ -181,7 +184,8 @@ class LastScreen extends StatelessWidget {
                 ),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color(0xff246BFD)),
+                    backgroundColor: const Color(0xff0E3146),
+                  ),
                   onPressed: () {},
                   child: const Text("BUY NOW"),
                 ),

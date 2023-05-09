@@ -11,12 +11,12 @@ class FirstScreen extends StatelessWidget {
       body: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal:20.0),
+            padding: const EdgeInsets.only(top:60,right:20,left:20.0),
             child: Column(
               children: [
-                const SizedBox(
-                  height: 90,
-                ),
+                // const SizedBox(
+                //   height: 90,
+                // ),
                 const CustomCircleAvatar(radius: 70,),
                 Column(
                   children: const [

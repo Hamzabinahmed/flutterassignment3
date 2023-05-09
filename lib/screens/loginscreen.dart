@@ -20,7 +20,9 @@ class LoginScreen extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 20.0),
           child: Column(
             children: [
-              const CustomCircleAvatar(radius: 70,),
+              const CustomCircleAvatar(
+                radius: 70,
+              ),
               Column(
                 children: [
                   const Padding(
@@ -39,7 +41,7 @@ class LoginScreen extends StatelessWidget {
                   //
 
                   Padding(
-                    padding: const EdgeInsets.only(top:8.0),
+                    padding: const EdgeInsets.only(top: 8.0),
                     child: TextField(
                       decoration: InputDecoration(
                         fillColor: Colors.grey.shade100,
@@ -63,9 +65,8 @@ class LoginScreen extends StatelessWidget {
                   //
 
                   Padding(
-                    padding: const EdgeInsets.only(top:8.0),
+                    padding: const EdgeInsets.only(top: 8.0),
                     child: TextField(
-                      
                       decoration: InputDecoration(
                         fillColor: Colors.grey.shade100,
                         filled: true,
